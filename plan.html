@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -19,20 +19,9 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="plan.css" />
 
-    <title>Frontend Mentor | Multi-step form</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <title>Frontend Mentor | Select Your Plan</title>
   </head>
   <body>
     <section>
@@ -50,7 +39,7 @@
             </div>
 
             <div class="sidebar-writeup-container">
-              <div class="serial-number">
+              <div class="serial-number" id="two">
                 <span><p>2</p></span>
               </div>
               <div class="additional-info">
@@ -60,7 +49,7 @@
             </div>
 
             <div class="sidebar-writeup-container">
-              <div class="serial-number" id="">
+              <div class="serial-number" id="three">
                 <span><p>3</p></span>
               </div>
               <div class="additional-info">
@@ -70,7 +59,7 @@
             </div>
 
             <div class="sidebar-writeup-container">
-              <div class="serial-number">
+              <div class="serial-number" id="four">
                 <span><p>4</p></span>
               </div>
               <div class="additional-info">
@@ -80,40 +69,54 @@
             </div>
           </div>
         </div>
-        <div class="login-form">
-          <h1>Personal info</h1>
-          <p>Please provide your name, email address, and phone number.</p>
+        <div class="plan-container">
+          <h1>Select your plan</h1>
+          <p>You have the option of monthly or yearly billing.</p>
 
-          <form action="plan.html">
-            <label for="name">Name</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="e.g Stephen King"
-              required
-            />
+          <div class="select-plan">
+            <button class="arcade">
+              <div>
+                <img src="/assets/images/icon-arcade.svg" alt="">
+              </div>
+              <div>
+                <h1>Arcade</h1>
+                <p>$9/mo</p>
+              </div>
+            </button>
 
-            <label for="email">Email Address</label>
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="e.g stephenking@lorem.com"
-              required
-            />
+            <button class="advanced">
+              <div>
+                <img src="/assets/images/icon-advanced.svg" alt="">
+              </div>
+              <div>
+                <h1>Advanced</h1>
+                <p>$12/mo</p>
+              </div>
+            </button>
 
-            <label for="number">Phone Number</label>
-            <input
-              type="number"
-              name="number"
-              id="number"
-              placeholder="e.g +1 234 567 890"
-              required
-            />
-
-            <button type="submit">Next Step</button>
-          </form>
+            <button class="pro">
+              <div>
+                <img src="/assets/images/icon-pro.svg" alt="">
+              </div>
+              <div>
+                <h1>Pro</h1>
+                <p>$15/mo</p>
+              </div>
+            </button>
+          </div>
+          <div class="period">
+            <p id="monthly">Monthly</p>
+            <label class="toggle">
+              <input type="checkbox" checked="checked" />
+              <span class="slider round"></span>
+            </label>
+            <p id="yearly">Yearly</p>
+          </div>
+          <div class="confirmation">
+            <button class="previous">Go Back</button>
+            <a href="addons.html"><button class="next-monthly" id="next-monthly">Next Step</button></a>
+            <a href="addons-yearly.html"><button class="next-yearly" id="next-yearly">Next Step</button></a>
+          </div>
         </div>
       </div>
 
@@ -158,6 +161,9 @@
         >. Coded by <a href="#">Your Name Here</a>.
       </div> -->
     </section>
+    <script src="script.js"></script>
   </body>
-  <!-- <div class="testing"></div> -->
+  <div class="testing" id="testing">
+  </div>
+  
 </html>
