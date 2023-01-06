@@ -87,7 +87,7 @@ section {
   height: 100%;
 }
 
-.additional-info{
+.additional-info {
   height: max-content;
 }
 
@@ -141,7 +141,7 @@ input::placeholder {
   color: #bdbec4;
 }
 
-button{
+button {
   margin-top: 90px;
   padding: 15px 25px;
   font-size: 18px;
