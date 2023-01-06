@@ -124,7 +124,7 @@ section {
 
 .select-plan {
   display: flex;
-  height: 30%;
+  height: 32%;
   justify-content: space-between;
   padding-top: 25px;
 }
