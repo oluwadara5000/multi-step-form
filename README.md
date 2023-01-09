@@ -11,7 +11,6 @@ This is a solution to the [Multi-step form challenge on Frontend Mentor](https:/
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -26,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/oluwadara5000/multi-step-form)
-- Live Site URL: [Add live site URL here](https://four-step-form.netlify.app/)
+- Solution URL: [https://github.com/oluwadara5000/multi-step-form]
+- Live Site URL: [https://four-step-form.netlify.app/]
 
 ## My process
 
@@ -38,15 +37,9 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - Vanilla JavaScript
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 ### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
 
 ```css
 .period {
