@@ -4,6 +4,7 @@ document.getElementById("monthly").style.color = "#47587d";
 document.getElementById("yearly").style.color = "#bdbec4";
 document.getElementById("next-monthly").style.display = "block";
 document.getElementById("next-yearly").style.display = "none";
+document.getElementById("next-yearly-mobile").style.display = "none";
 document.getElementById("arcade-year-one").style.display = "none";
 document.getElementById("arcade-year-two").style.display = "none";
 document.getElementById("advanced-year-one").style.display = "none";
@@ -17,6 +18,7 @@ toggle.addEventListener("change", function () {
     document.getElementById("yearly").style.color = "#47587d";
     document.getElementById("next-monthly").style.display = "none";
     document.getElementById("next-yearly").style.display = "block";
+    document.getElementById("next-yearly-mobile").style.display = "block";
     document.getElementById("arcade-month").style.display = "none";
     document.getElementById("advanced-month").style.display = "none";
     document.getElementById("pro-month").style.display = "none";
@@ -31,6 +33,7 @@ toggle.addEventListener("change", function () {
     document.getElementById("yearly").style.color = "#bdbec4";
     document.getElementById("next-monthly").style.display = "block";
     document.getElementById("next-yearly").style.display = "none";
+    document.getElementById("next-yearly-mobile").style.display = "none";
     document.getElementById("arcade-month").style.display = "block";
     document.getElementById("advanced-month").style.display = "block";
     document.getElementById("pro-month").style.display = "block";
