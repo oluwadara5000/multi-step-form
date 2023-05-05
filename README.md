@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/oluwadara5000/multi-step-form]
-- Live Site URL: [https://four-step-form.netlify.app/]
+- Solution URL: [GitHub Repo](https://github.com/oluwadara5000/multi-step-form)
+- Live Site URL: [Live Link](https://four-step-form.netlify.app/)
 
 ## My process
 
